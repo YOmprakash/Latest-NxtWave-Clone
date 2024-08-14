@@ -29,11 +29,10 @@ const App = () => {
       <AwardSection/>
       <NationalRecognizeSection/>
       <MentorSection/>
+      <FeaturedSection/>
+      <Masterclass/>
       <MentorComunity/>
       <FundraisingSection/>
-      <Masterclass/>
-      <FeaturedSection/>
-      <LearnersExperience/>
       
       <Footer/>
       
