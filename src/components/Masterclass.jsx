@@ -32,8 +32,7 @@ export default function Masterclass() {
               className="max-w-full  hidden md:block object-contain"
             />
             {/* Callback button */}
-            <div className="hidden items-center mt-4 bg-white py-2 px-4  rounded cursor-pointer 
-              md:flex">
+            <div className="hidden md:flex w-[240px]  items-center mt-8 bg-white py-3 px-6  rounded-[12px] cursor-pointer">
               <FaPhone color="#183b56" />
               <button type="button" className="ml-2 text-[#183b56]">
                 Request a Callback
@@ -67,6 +66,15 @@ export default function Masterclass() {
           alt="mentor-community"
           className=" md:hidden block w-full mb-8 object-contain "
         />
+        {/* Callback button-2 */}
+        <div className="flex justify-center">
+        <div className="flex md:hidden  justify-center text-center w-[240px] items-center  bg-white py-3 px-6  rounded-[12px]">
+              <FaPhone color="#183b56" />
+              <button type="button" className="ml-2 text-[#183b56]">
+                Request a Callback
+              </button>
+              </div>
+            </div>
 
         {/*  container for mentor cards */}
         <div className="flex flex-col md:flex-row justify-between  flex-wrap pt-12 ">

@@ -1,11 +1,12 @@
-import { FaPhone } from "react-icons/fa6";
+
+import Button from "./Button";
 
 const LandingPage = () => {
   return (
     // Main Section Container with padding and background color
-    <section className="w-full bg-gray-50">
+    <section className="w-full bg-gray-50 py-16 px-6 md:px-[74px]">
       {/* Centered Container to hold the content */}
-      <div className="flex items-center justify-center font-sans py-16 px-6 md:px-16">
+      <div className="flex items-center justify-center font-sans">
         {/* Left Section: Text and Award Images */}
         <div className="flex-col items-center justify-start max-w-[500px] text-left mr-12 hidden md:flex">
           <h1 className="text-light-blue  mt-[-20px] mb-0 text-[44px] leading-[64px] font-semibold w-[400px] ">
@@ -42,27 +43,27 @@ const LandingPage = () => {
         {/* Right Section: Card Containers */}
         <div className="flex items-center w-full flex-col md:flex-row">
           {/* First Card Container */}
-          <div className="w-full   z-20 md:w-[340px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
+          <div className="w-full   z-20 md:w-[320px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
             {/* Logo and Person Image */}
-            <div className="flex justify-between  items-start ">
+            <div className="flex justify-center  items-start ">
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Academy-blue-logo.svg"
                 alt="Academy Logo"
-                className="w-[150px] mt-8 ml-5"
+                className="w-[140px] mt-8 ml-5"
               />
               <img
                 src="https://nxtwave.imgix.net/ccbp-website/Home/Landingpage/academy-peron-photo.png?auto=format,compress&q=80"
                 alt="Academy Person"
-                className="relative top-[-28px] h-[237px] max-w-[150px]"
+                className="relative top-[-28px] w-[130px]"
               />
             </div>
             {/* Text and Button Container */}
-            <div className="z-10  h-[370px] md:h-[419px] custom-gradient  rounded-b-lg mt-[-135px] flex flex-col md:pt-12 px-6">
+            <div className="z-10  h-[370px] md:h-[419px] custom-gradient  rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6">
               {/* Tags and Heading */}
-              <span className="uppercase self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded  p-1 mb-2 ">
+              <span className="uppercase z-10 self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded-lg  p-1 mb-2 ">
                 post 12TH / intermediate
               </span>
-              <span className="uppercase self-start bg-cyan-100 text-cyan-800 font-semibold text-xs rounded p-1 mb-4 ">
+              <span className="uppercase z-10 self-start bg-cyan-100 text-cyan-800 font-semibold text-xs rounded-lg p-1 mb-4 ">
                 1st , 2nd , 3rd year
               </span>
               <h1 className="text-light-blue text-xl font-semibold mb-6 leading-[32px]">
@@ -92,14 +93,9 @@ const LandingPage = () => {
                 </div>
               </div>
               {/* Request Callback Button */}
-              <div className="mt-4 flex items-center justify-center bg-button-bg rounded-lg p-3">
-                <FaPhone color="#fff" />
-                <button
-                  type="button"
-                  className="text-white ml-2 focus:outline-none"
-                >
-                  Request Callback
-                </button>
+              <div className="mt-4">
+
+              <Button />
               </div>
               {/* Know More Button */}
               <button
@@ -112,28 +108,28 @@ const LandingPage = () => {
           </div>
 
           {/* Second Card Container */}
-          <div className="w-full   z-20 md:w-[340px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
+          <div className="w-full   z-20 md:w-[320px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
             {/* Logo and Person Image */}
-            <div className="flex justify-between items-start pl-6">
+            <div className="flex justify-center items-start pl-6">
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive-3-0-logo.svg"
                 alt="Intensive Logo"
-                className="max-w-[150px] mt-8"
+                className="w-[140px] mt-8"
               />
               <img
                 src="https://nxtwave.imgix.net/ccbp-website/Home/Landingpage/intensive-person-photo.png?auto=format,compress&q=80"
                 alt="Intensive Person"
-                className="relative top-[-28px] max-w-[150px] h-[237px]"
+                className="relative top-[-28px] w-[130px] "
               />
             </div>
             {/* Text and Button Container */}
-            <div className="z-10  h-[370px] md:h-[419px] custom-gradient  rounded-b-lg mt-[-135px] flex flex-col md:pt-12 px-6">
+            <div className="z-10  h-[370px] md:h-[419px]   rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6">
               {/* Tags and Heading */}
-              <div className="flex items-center mb-2">
-                <span className="uppercase self-start bg-green-100 text-green-800 font-semibold text-xs rounded px-2 py-1 mr-2">
+              <div className="flex items-center z-10 mb-2">
+                <span className="uppercase self-start bg-green-100 text-green-800 font-semibold text-xs rounded-lg px-2 py-1 mr-2">
                   Graduates
                 </span>
-                <span className="uppercase self-start bg-emerald-200 text-emerald-800 font-semibold text-xs rounded px-2 py-1">
+                <span className="uppercase self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded-lg px-2 py-1">
                   final year
                 </span>
               </div>
@@ -177,7 +173,7 @@ const LandingPage = () => {
               {/* Know More Button */}
               <button
                 type="button"
-                className="mt-4 bg-transparent font-semibold text-blue w-full py-3 rounded-lg focus:outline-none "
+                className="pt-4 bg-transparent font-semibold text-blue w-full  rounded-2xl focus:outline-none "
               >
                 Know More
               </button>

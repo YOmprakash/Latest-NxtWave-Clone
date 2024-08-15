@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhone } from "react-icons/fa6";
+import Button from "./Button";
 import mentors from "../assets/Images/mentorImg";
 
 const  MentorSection=()=> {
@@ -226,13 +226,8 @@ const  MentorSection=()=> {
             </div>
           </div>
         </div>
-        <div className="flex justify-center md:justify-start">
-        <button className="flex text-white items-center  bg-blue py-3 px-6 rounded-lg mt-8 gap-2">
-          
-          <FaPhone color='#fff'/>
-              Request a Callback
-              
-      </button>
+        <div className="flex justify-center md:justify-start mt-8">
+          <Button/>
       </div>
         
          </div>

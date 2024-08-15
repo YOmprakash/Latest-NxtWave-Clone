@@ -1,7 +1,12 @@
+import { FaPhone } from "react-icons/fa6";
 
 const Button = () => {
   return (
-    <button className="bg-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Request a Callback</button>
+    <div className="flex items-center bg-[#1565d8] hover:bg-blue-700 text-white text-[16px] font-medium py-3 px-8 rounded-[12px]">
+<FaPhone/>
+<button className="pl-2">Request a Callback</button>
+    </div>
+
   )
 }
 

@@ -1,36 +1,47 @@
-
-
+import pacific from '../assets/greater-pacific.svg';
+import oriosPatner from '../assets/oris-partner.png';
+import betterPartner from '../assets/better-partner.png';
+import Button from './Button';
 export default function FundraisingSection() {
   return (
-    <section className='bg-[url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/63f3882642772970018a63c8_BG%20(5).png")] bg-cover bg-no-repeat bg-gray-100 md:bg-none'>
-      <div className='max-w-screen-lg mx-auto text-center py-24 px-12 md:px-4'>
-        <h2 className='text-blue-900 text-4xl font-bold leading-tight mb-6 md:text-2xl md:mb-6'>
-          Fundraising Section Heading
+    <section className="bg-[#f9fbfe]">
+      <div className=' mx-auto py-8  md:py-24 md:px-12 px-4'>
+        <h2 className='text-light-blue  text-2xl md:text-5xl text-center font-semibold leading-[38px]  mb-6 md:mb-6 md:leading-[64px]  md:max-w-[800px] max-w-[268px] mx-auto'>
+        Announcing Our Latest Fundraise
+        of INR 275 Crores Led by
         </h2>
-        <h4 className='text-blue-900 text-2xl font-bold leading-tight mb-6 md:text-lg md:mb-4'>
-          Fundraising Section Subheading
-        </h4>
-        <p className='text-gray-500 text-sm mb-16'>
-          This is some description text for the fundraising section. It provides additional information and context.
-        </p>
-        <div className='bg-[url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg")] bg-cover bg-center mb-6 max-w-lg mx-auto'>
+        
+        
+        <div className='bg-[url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg")] bg-contain mt-8 bg-center flex justify-center mb-6 max-w-2xl mx-auto'>
           <img
-            src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg'
+            src={pacific}
             alt='confetti'
-            className='w-full max-w-xs'
+            className='md:w-[500px] object-contain w-[350px]'
           />
         </div>
-        <div className='flex items-center justify-center mb-6'>
+        <p className='text-light-blue text-center text-[16px] font-semibold md:text-[28px] mb-16 mt-8 '>
+        Celebrating continued support from our existing partners
+        </p>
+        <div className='flex items-center justify-center mb-6 gap-8'>
           <img
-            src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/celebration-icon.svg'
-            alt='celebration'
-            className='w-full max-w-xs h-20 mr-9 md:max-w-xs md:h-10 md:mr-5'
+            src={oriosPatner}
+            alt='orios' 
+             className='object-contain md:w-[300px]  w-[150px] '
           />
           <img
-            src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/celebration-icon.svg'
-            alt='celebration'
-            className='w-full max-w-xs h-20'
+            src={betterPartner}
+            alt='better'  
+            className='object-contain md:w-[300px] w-[150px] '
           />
+        </div>
+        <p className='text-gray-500 text-sm text-center'>
+        and more 
+        </p>
+        <div className='flex items-center flex-col md:flex-row justify-center pt-8 gap-4'>
+          <Button/>
+          <button type='button' className='ml-2 bg-transparent  text-blue py-2 px-4 '>
+          know more
+          </button>
         </div>
       </div>
     </section>

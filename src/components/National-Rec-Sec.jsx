@@ -1,4 +1,4 @@
-import { FaPhone } from "react-icons/fa6";
+import Button from "./Button";
 import Image1 from "../assets/recognision-img1.png";
 import Image2 from "../assets/recognision-img2.png";
 export default function NationalRecognizeSection() {
@@ -28,14 +28,8 @@ export default function NationalRecognizeSection() {
                     <h4 className="text-white text-[16px] md:text-lg font-medium leading-tight">Union Minister for Education | Skill Development | Entrepreneurship</h4>
                     <span className="text-white text-[16px] md:text-lg font-medium leading-6">Govt. of India - 2023</span>
                 </div>
-                <div className='flex items-center justify-center bg-[#1565d8] py-[12px] px-[22px] rounded-lg mt-5'>
-                    <FaPhone color='#fff' />
-                    <button 
-                        type='button' 
-                        className='ml-2 bg-transparent text-white text-lg font-medium cursor-pointer'
-                    >
-                        Request a Callback
-                    </button>
+                <div className="mt-8">
+                    <Button />
                 </div>
             </div>
         </section>

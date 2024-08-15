@@ -1,6 +1,7 @@
 import Desktop from "../assets/featured-lg.png";
 import Mobile from "../assets/featured-sm.avif";
-import { FaPhone } from "react-icons/fa6";
+import Button from "./Button";
+
 
 export default function FeaturedSection() {
   return (
@@ -19,14 +20,8 @@ export default function FeaturedSection() {
           alt="mobile-feature"
           className="w-full block md:hidden object-contain"
         />
-        <div className="flex items-center justify-center py-4 px-5 bg-[#1565d8] rounded-lg mt-8">
-          <FaPhone color="#fff" />
-          <button
-            type="button"
-            className="ml-2 cursor-pointer text-white text-lg bg-transparent border-none outline-none"
-          >
-            Request a Callback
-          </button>
+        <div className="flex items-center justify-center  mt-8">
+          <Button/>
         </div>
       </div>
     </section>

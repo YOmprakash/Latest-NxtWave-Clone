@@ -1,6 +1,6 @@
 import sm from '../assets/hiring-companies-mobile.png';
 import lg from '../assets/hiring-companies-lg.png';
-import { FaPhone } from 'react-icons/fa';
+import Button from './Button';
 
 export default function HiringCompaniesSection() {
   return (
@@ -23,18 +23,12 @@ export default function HiringCompaniesSection() {
           and many more...
         </p>
         <div className='flex flex-col md:flex-row items-center mt-8 space-y-4 md:space-y-0 md:space-x-4'>
-          <div className='flex items-center bg-blue py-3 px-8 rounded-lg'>
-            <FaPhone color='#fff' className='mr-2' />
-            <button
-              type='button'
-              className='text-white font-medium text-lg bg-transparent border-0 outline-none'
-            >
-              Request a Callback
-            </button>
+          <div>
+            <Button />
           </div>
           <button
             type='button'
-            className='text-blue border-2 border-blue py-3 px-8 rounded-lg bg-transparent font-medium text-lg'
+            className='text-[#1565d8] border-2 border-[#1565d8] py-3 px-12  rounded-[12px] bg-transparent font-medium text-sm'
           >
             View All Companies
           </button>
