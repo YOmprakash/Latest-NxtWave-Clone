@@ -34,7 +34,7 @@ const App = () => {
       <MentorComunity/>
       <FundraisingSection/>
       
-      <Footer/>
+    
       
     </div>
   )
