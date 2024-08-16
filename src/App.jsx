@@ -13,7 +13,7 @@ import MentorComunity from './components/MentorCommunity'
 import NationalRecognizeSection from './components/National-Rec-Sec'
 import Navbar from './components/Navbar'
 import Recognization from './components/Recognization'
-
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -32,6 +32,7 @@ const App = () => {
       <Masterclass/>
       <MentorComunity/>
       <FundraisingSection/>
+      <Footer/>
       
     
       
