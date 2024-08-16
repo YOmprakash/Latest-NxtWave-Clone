@@ -14,7 +14,7 @@ import NationalRecognizeSection from './components/National-Rec-Sec'
 import Navbar from './components/Navbar'
 import Recognization from './components/Recognization'
 import Footer from './components/Footer'
-
+import WhatsApp from './components/WhatsApp'
 
 const App = () => {
   return (
@@ -33,6 +33,7 @@ const App = () => {
       <MentorComunity/>
       <FundraisingSection/>
       <Footer/>
+      <WhatsApp />
       
     
       
