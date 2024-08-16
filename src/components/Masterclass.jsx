@@ -10,11 +10,11 @@ export default function Masterclass() {
     Sravya,
     Srividya} = images
   return (
-    <section className="bg-[#183b56] py-[92px] md:px-[92px] px-4 font-sans">
+    <section className="bg-[#183b56] py-[92px] md:px-[24px] lg:px-[92px] px-4 font-sans">
       {/* Container for the entire section */}
-      <div className=" mx-auto">
+      <div className="mx-auto ">
         {/* Flex container for the main content of the section */}
-        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between mb-12 ">
+        <div className="flex flex-col items-center justify-center mb-12 md:flex-row md:justify-between ">
           {/* Left column containing text and image */}
           <div className="w-full md:w-[50%] mb-5 md:mb-0 md:mr-4">
             {/* Main heading */}
@@ -29,7 +29,7 @@ export default function Masterclass() {
             <img
               src={desktop}
               alt="masterclass-community"
-              className="max-w-full  hidden md:block object-contain"
+              className="hidden object-contain max-w-full md:block"
             />
             {/* Callback button */}
             <div className="hidden md:flex w-[240px]  items-center mt-8 bg-white py-3 px-6  rounded-[12px] cursor-pointer">
@@ -46,10 +46,10 @@ export default function Masterclass() {
             <img
               src={Rakesh}
               alt="rakesh-misra-yt"
-              className="max-w-full object-cover"
+              className="object-cover max-w-full"
             />
             {/* Text information below the image */}
-            <div className="bg-white rounded-b-md p-4 pt-2">
+            <div className="p-4 pt-2 bg-white rounded-b-md">
               <h4 className="text-[#183b56] font-bold text-[20px] mb-2">
                 Sneak Peek Of Masterclass by Rakesh Misra
               </h4>
@@ -64,7 +64,7 @@ export default function Masterclass() {
         <img
           src={mobile}
           alt="mentor-community"
-          className=" md:hidden block w-full mb-8 object-contain "
+          className="block object-contain w-full mb-8 md:hidden"
         />
         {/* Callback button-2 */}
         <div className="flex justify-center">
@@ -77,13 +77,13 @@ export default function Masterclass() {
             </div>
 
         {/*  container for mentor cards */}
-        <div className="flex flex-col md:flex-row justify-between  flex-wrap pt-12 ">
+        <div className="flex flex-col flex-wrap justify-between pt-12 md:justify-center md:gap-8 lg:gap-0 md:flex-row ">
           {/* Srividya card 1 */}
           <div className="md:w-[260px]  rounded-md overflow-hidden mb-6 md:mr-4">
             <img
               src={Srividya}
               alt="srividya-pranavi"
-              className="max-w-full object-contain rounded-t-md"
+              className="object-contain max-w-full rounded-t-md"
             />
             <div className="p-5 bg-white rounded-b-md w-full h-[220px]">
               <h2 className="text-[#183b56] text-[20px]  font-semibold mb-4">
@@ -117,9 +117,9 @@ export default function Masterclass() {
             <img
               src={Sravya}
               alt="Sravya-Nimmagadda"
-              className="max-w-full object-contain rounded-t-md"
+              className="object-contain max-w-full rounded-t-md"
             />
-            <div className="p-5 bg-white rounded-b-md w-full">
+            <div className="w-full p-5 bg-white rounded-b-md">
               <h2 className="text-[#183b56] text-[20px] font-semibold mb-4">
               Sravya Nimmagadda
               </h2>
@@ -151,9 +151,9 @@ export default function Masterclass() {
             <img
               src={priyatham}
               alt="Priyatham-Bollimpalli"
-              className="max-w-full object-contain rounded-t-md"
+              className="object-contain max-w-full rounded-t-md"
             />
-            <div className="p-5 bg-white rounded-b-md w-full">
+            <div className="w-full p-5 bg-white rounded-b-md">
               <h2 className="text-[#183b56] text-[20px]  font-semibold mb-4">
               Priyatham Bollimpalli
               </h2>
@@ -186,7 +186,7 @@ export default function Masterclass() {
             <img
               src={vamsi}
               alt="Vamsi-Krishna"
-              className="max-w-full object-contain rounded-t-md"
+              className="object-contain max-w-full rounded-t-md"
             />
             <div className="p-5 bg-white rounded-b-md h-[220px] ">
               <h2 className="text-[#183b56] text-[20px]  font-semibold mb-4">

@@ -15,20 +15,20 @@ const AwardSection = () => {
 
   return (
     <section className="bg-[#212635] w-full">
-      <div className="mx-auto flex flex-col py-[64px] px-6 md:px-[64px]">
+      <div className="mx-auto flex flex-col py-[64px] px-6 md:px-4 lg:px-[64px]">
         {/* Title of the section */}
         <h1 className="text-white text-center font-semibold text-[20px] md:text-4xl leading-16 mb-0">
           Received Prestigious Awards
         </h1>
 
         {/*  4 Award container */}
-        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between  w-full">
+        <div className="flex flex-col items-center justify-center w-full md:flex-row md:justify-between">
           {/* First set of awards container */}
-          <div className="flex  justify-between md:justify-center  items-center w-full mt-6 gap-4 md:space-x-8">
+          <div className="flex items-center justify-between w-full gap-4 mt-6 md:justify-center md:space-x-8">
             {/* Award 1 container */}
             <div className="flex items-end justify-center w-full md:w-auto">
               <img src={BestSkill} alt="best skill award" className="h-[117px] w-12 object-contain" />
-              <div className=" ml-2 flex flex-col text-left">
+              <div className="flex flex-col ml-2 text-left ">
                 <h4 className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 font-semibold text-[10px] md:text-xs mb-1">
                   Recognised as
                 </h4>
@@ -44,7 +44,7 @@ const AwardSection = () => {
             {/* Award 2 container */}
             <div className="flex items-end justify-center w-full md:w-auto">
               <img src={TrustBrand} alt="trust brand award" className=" h-[97px] object-contain" />
-              <div className="ml-3 flex flex-col text-left">
+              <div className="flex flex-col ml-3 text-left">
                 <h4 className="bg-clip-text mb-1 text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 font-semibold text-[10px] md:text-xs">
                   Recognised as
                 </h4> 
@@ -58,7 +58,7 @@ const AwardSection = () => {
             </div>
           </div>
           {/* Award 3 & 4 second award container*/}
-          <div className="flex justify-between md:justify-center md:space-x-10 items-center w-full  ">
+          <div className="flex items-center justify-between w-full md:justify-center md:space-x-10 ">
             <img
               src={Preferred}
               alt="preferred award"
@@ -77,37 +77,37 @@ const AwardSection = () => {
        
 
           {/* Award 6 & 7 & 8 */}
-          <div className=" w-full flex flex-col  justify-center md:justify-between mt-8 items-center md:flex-row space-y-6">
+          <div className="flex flex-col items-center justify-center w-full mt-8 space-y-6 md:justify-between md:flex-row md:gap-3">
           {/* Award 6 */}
-          <div className="flex flex-col  justify-center items-center w-full md:max-w-xs">
+          <div className="flex flex-col items-center justify-center w-full md:max-w-xs">
             <img
               src={Forbes}
               alt="forbes award"
-              className="w-full  md:max-w-xs object-contain"
+              className="object-contain w-full md:max-w-xs"
             />
-            <p className="text-white text-center text-sm mt-4 w-full ">
+            <p className="w-full mt-4 text-sm text-center text-white ">
               Founders Mr. Anupam Pedarla and Mr. Sashank Gujjula made it to the
               prestigious 2024 Forbes India 30 Under 30 list!
             </p>
           </div>
 
           {/* Award 7 */}
-            <div className="w-full flex flex-col justify-center items-center md:max-w-xs">
+            <div className="flex flex-col items-center justify-center w-full md:max-w-xs">
               <img
                 src={AwardBussiness}
                 alt="award business"
-                className=" w-full object-contain mb-4"
+                className="object-contain w-full mb-4 "
               />
-              <p className="text-white text-center text-sm w-full ">
+              <p className="w-full text-sm text-center text-white ">
                 Mr. Sashank Gujjula, Co-founder, NxtWave, receiving the ‘Best
                 Tech Skilling EdTech Company’ award by Times Business Awards
               </p>
             </div>
 
             {/* Award 8 */}
-            <div className="flex flex-col justify-center w-full items-center  md:max-w-xs">
-              <img src={THub} alt="t-hub award" className="w-full mb-4   object-contain  " />
-              <p className="text-white text-center text-sm w-full ">
+            <div className="flex flex-col items-center justify-center w-full md:max-w-xs">
+              <img src={THub} alt="t-hub award" className="object-contain w-full mb-4 " />
+              <p className="w-full text-sm text-center text-white ">
                 Mr. Sashank Gujjula, Co-founder, NxtWave, receiving the
                 prestigious award by T-Hub 
               </p>

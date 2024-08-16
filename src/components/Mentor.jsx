@@ -30,9 +30,9 @@ const  MentorSection=()=> {
         <div className="bg-[#f9fbfe] w-full border border-[#cbd5e1] rounded-[16px] justify-center mb-0 block">
           
           {/* Card section for trainers and product developers */}
-          <div className="pt-8  flex justify-center flex-col md:flex-row items-center">
+          <div className="flex flex-col items-center justify-center pt-8 md:flex-row">
             {/* Column container for card sections */}
-            <div className="flex flex-col m-auto pb-0">
+            <div className="flex flex-col pb-0 m-auto">
               
               {/* Trainer cards section */}
               <div className="text-center mb-[16px] w-full">
@@ -49,7 +49,7 @@ const  MentorSection=()=> {
                     <img
                       src={Rahul}
                       alt="rahul"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Rahul</h1>
@@ -64,7 +64,7 @@ const  MentorSection=()=> {
                     <img
                       src={Avinash}
                       alt="Avinash Dara"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Avinash Dara</h1>
@@ -92,7 +92,7 @@ const  MentorSection=()=> {
                     <img
                       src={Revanth}
                       alt="Revanth"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium text-[14px] text-center">
                       <h1 className="mt-1">Revanth</h1>
@@ -108,7 +108,7 @@ const  MentorSection=()=> {
                     <img
                       src={Pavan}
                       alt="Pavan"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Pavan</h1>
@@ -124,7 +124,7 @@ const  MentorSection=()=> {
             </div>
             
             {/* Student card section */}
-            <div className="hidden md:block  border border-[#cbd5e1] rounded-[16px] self-center overflow-hidden ">
+            <div className="hidden lg:block  border border-[#cbd5e1] rounded-[16px] self-center overflow-hidden ">
               <img
                 src={Student}
                 alt="student"
@@ -137,7 +137,7 @@ const  MentorSection=()=> {
             </div>
             
             {/* Career coaches and Expert  cards section */}
-            <div className="flex flex-col m-auto pb-0">
+            <div className="flex flex-col pb-0 m-auto">
               {/* Career coaches cards section */}
               <div className="text-center mb-[16px]">
                 <h4 className="text-[#183b56] text-left mb-[12px] text-[14px] font-medium ">
@@ -151,7 +151,7 @@ const  MentorSection=()=> {
                     <img
                       src={Sriram}
                       alt="Sriram Teja"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium text-center text-[14px]">
                       <h1 className="mt-1">Sriram Teja</h1>
@@ -166,7 +166,7 @@ const  MentorSection=()=> {
                     <img
                       src={Trivikram}
                       alt="Trivikram"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Trivikram</h1>
@@ -193,7 +193,7 @@ const  MentorSection=()=> {
                     <img
                       src={Rakesh}
                       alt="Rakesh"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Rakesh</h1>
@@ -209,7 +209,7 @@ const  MentorSection=()=> {
                     <img
                       src={Pranavi}
                       alt="Pranavi"
-                      className="w-full object-contain"
+                      className="object-contain w-full"
                     />
                     <div className="text-[#183b56] font-medium  text-[14px] text-center">
                       <h1 className="mt-1">Pranavi</h1>
@@ -226,7 +226,7 @@ const  MentorSection=()=> {
             </div>
           </div>
         </div>
-        <div className="flex justify-center md:justify-start mt-8">
+        <div className="flex justify-center mt-8 md:justify-start">
           <Button/>
       </div>
         

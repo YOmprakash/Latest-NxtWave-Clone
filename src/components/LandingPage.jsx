@@ -6,10 +6,10 @@ const LandingPage = () => {
     // Main Section Container with padding and background color
     <section className="w-full bg-gray-50 py-16 px-6 md:px-[74px]">
       {/* Centered Container to hold the content */}
-      <div className="flex items-center justify-center font-sans">
+      <div className="flex items-center justify-center font-sans md:flex-col lg:flex-row">
         {/* Left Section: Text and Award Images */}
         <div className="flex-col items-center justify-start max-w-[500px] text-left mr-12 hidden md:flex">
-          <h1 className="text-light-blue  mt-[-20px] mb-0 text-[44px] leading-[64px] font-semibold w-[400px] ">
+          <h1 className="text-light-blue  mt-[-20px] mb-0 text-[44px] leading-[64px] font-semibold lg:w-[400px] md:w-[524px]  ">
             Designed to transform you into a highly skilled Software
             Professional
           </h1>
@@ -41,7 +41,7 @@ const LandingPage = () => {
         </div>
 
         {/* Right Section: Card Containers */}
-        <div className="flex flex-col items-center w-full md:flex-row">
+        <div className="flex flex-col items-center w-full md:justify-center md:flex-row md:mt-12 lg:mt-0">
           {/* First Card Container */}
           <div className="w-full   z-20 md:w-[320px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
             {/* Logo and Person Image */}
