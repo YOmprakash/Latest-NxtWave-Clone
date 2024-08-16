@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-white ">
+    <header className="top-0 z-40 bg-white ">
       <div className="w-full md:w-[90%] mx-auto text-[16px] flex justify-between text-light-blue  font-sans items-center p-4">
         <a href="/">
           <img src={Logo} className="w-[84px]" alt="Nxtwave" />
@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-white shadow-md absolute w-full ${
+        className={`md:hidden z-40    bg-white shadow-md absolute w-full ${
           hamburger ? "block" : "hidden"
         }`}
       >

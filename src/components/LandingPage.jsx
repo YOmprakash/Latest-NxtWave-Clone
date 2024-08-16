@@ -13,7 +13,7 @@ const LandingPage = () => {
             Designed to transform you into a highly skilled Software
             Professional
           </h1>
-          <div className="mt-8 flex flex-col items-center">
+          <div className="flex flex-col items-center mt-8">
             <p className="text-gray-600 mt-0 mb-0 font-semibold text-[16px] leading-6">
               Recognized as the Greatest Brand in Education
             </p>
@@ -23,7 +23,7 @@ const LandingPage = () => {
               alt="Award Design"
               className="w-[252px] mt-4"
             />
-            <div className="mt-4 flex justify-center items-center">
+            <div className="flex items-center justify-center mt-4">
               {/* Award 1 Design Image */}
               <img
                 src="https://nxtwave.imgix.net/ccbp-website/intensive/landingpage/award1-design-desktop-2x.png?auto=format,compress&q=80"
@@ -41,11 +41,11 @@ const LandingPage = () => {
         </div>
 
         {/* Right Section: Card Containers */}
-        <div className="flex items-center w-full flex-col md:flex-row">
+        <div className="flex flex-col items-center w-full md:flex-row">
           {/* First Card Container */}
           <div className="w-full   z-20 md:w-[320px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
             {/* Logo and Person Image */}
-            <div className="flex justify-center  items-start ">
+            <div className="flex items-start justify-center ">
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Academy-blue-logo.svg"
                 alt="Academy Logo"
@@ -63,7 +63,7 @@ const LandingPage = () => {
               <span className="uppercase z-10 self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded-lg  p-1 mb-2 ">
                 post 12TH / intermediate
               </span>
-              <span className="uppercase z-10 self-start bg-cyan-100 text-cyan-800 font-semibold text-xs rounded-lg p-1 mb-4 ">
+              <span className="z-10 self-start p-1 mb-4 text-xs font-semibold uppercase rounded-lg bg-cyan-100 text-cyan-800 ">
                 1st , 2nd , 3rd year
               </span>
               <h1 className="text-light-blue text-xl font-semibold mb-6 leading-[32px]">
@@ -71,7 +71,7 @@ const LandingPage = () => {
                 and achieve high-paid <br /> software jobs
               </h1>
               {/* Batch Information */}
-              <div className="flex justify-between items-center h-12">
+              <div className="flex items-center justify-between h-12">
                 <div>
                   <p className="uppercase text-[#64748b] text-xs font-semibold mb-1">
                     BATCH STARTS
@@ -86,7 +86,7 @@ const LandingPage = () => {
                     src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/hero-section-vector-fire.svg"
                     alt="Fire Icon"
                   />
-                  <p className="text-light-blue text-sm ml-1 font-medium leading-6">
+                  <p className="ml-1 text-sm font-medium leading-6 text-light-blue">
                     Limited Seats
                     <br /> Available
                   </p>
@@ -100,7 +100,7 @@ const LandingPage = () => {
               {/* Know More Button */}
               <button
                 type="button"
-                className="mt-4 mb-6 bg-transparent font-semibold text-blue w-full p-3 rounded-lg focus:outline-none"
+                className="w-full p-3 mt-4 mb-6 font-semibold bg-transparent rounded-lg text-blue focus:outline-none"
               >
                 Know More
               </button>
@@ -110,7 +110,7 @@ const LandingPage = () => {
           {/* Second Card Container */}
           <div className="w-full   z-20 md:w-[320px] min-h-[470px] bg-white border border-gray-300 rounded-[12px] shadow-lg mb-8 md:mb-0 md:mr-6">
             {/* Logo and Person Image */}
-            <div className="flex justify-center items-start pl-6">
+            <div className="flex items-start justify-center pl-6">
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive-3-0-logo.svg"
                 alt="Intensive Logo"
@@ -123,17 +123,17 @@ const LandingPage = () => {
               />
             </div>
             {/* Text and Button Container */}
-            <div className="z-10  h-[370px] md:h-[419px]   rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6">
+            <div className="z-10  h-[370px] md:h-[419px]   rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6 bg-transparent bg-gradient-to-b from-transparent via-[#fff0] to-[#fff]">
               {/* Tags and Heading */}
-              <div className="flex items-center z-10 mb-2">
-                <span className="uppercase self-start bg-green-100 text-green-800 font-semibold text-xs rounded-lg px-2 py-1 mr-2">
+              <div className="z-10 flex items-center mb-2">
+                <span className="self-start px-2 py-1 mr-2 text-xs font-semibold text-green-800 uppercase bg-green-100 rounded-lg">
                   Graduates
                 </span>
                 <span className="uppercase self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded-lg px-2 py-1">
                   final year
                 </span>
               </div>
-              <span className="uppercase self-start bg-yellow-100 text-yellow-800 font-semibold text-xs rounded px-2 py-1 mb-4 inline-block">
+              <span className="self-start inline-block px-2 py-1 mb-4 text-xs font-semibold text-yellow-800 uppercase bg-yellow-100 rounded">
                 ANY BRANCH OR DEGREE
               </span>
               <h1 className="text-light-blue text-xl font-semibold mb-6 leading-[32px]">
@@ -142,7 +142,7 @@ const LandingPage = () => {
                 Software Developer
               </h1>
               {/* Batch Information */}
-              <div className="flex justify-between items-center h-12">
+              <div className="flex items-center justify-between h-12">
                 <div>
                   <p className="uppercase text-[#64748b] text-xs font-semibold mb-1">
                     BATCH STARTS
@@ -157,7 +157,7 @@ const LandingPage = () => {
                     src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/hero-section-vector-fire.svg"
                     alt="Fire Icon"
                   />
-                  <p className="text-light-blue text-sm ml-1 font-medium leading-6">
+                  <p className="ml-1 text-sm font-medium leading-6 text-light-blue">
                     Limited Seats
                     <br /> Available
                   </p>
@@ -166,14 +166,14 @@ const LandingPage = () => {
               {/* Book A Free Demo Button */}
               <button
                 type="button"
-                className="mt-4  bg-button-bg text-white  p-3 w-full py-3 rounded-lg focus:outline-none"
+                className="w-full p-3 py-3 mt-4 text-white rounded-lg bg-button-bg focus:outline-none"
               >
                 Book A Free Demo
               </button>
               {/* Know More Button */}
               <button
                 type="button"
-                className="pt-4 bg-transparent font-semibold text-blue w-full  rounded-2xl focus:outline-none "
+                className="w-full pt-4 font-semibold bg-transparent text-blue rounded-2xl focus:outline-none "
               >
                 Know More
               </button>
