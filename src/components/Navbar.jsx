@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IoIosArrowDown, IoMdMenu } from "react-icons/io";
-import { FaArrowDown, FaArrowRightLong, FaArrowUpRightDots } from "react-icons/fa6";
-import Logo from "../assets/logo.svg";
+import {  FaArrowRightLong } from "react-icons/fa6";
+import Logo from "../assets/Logo.svg";
 import PopupImage1 from "../assets/intensive.svg"; // Replace with your image paths
 import PopupImage2 from "../assets/Academy.svg"; // Replace with your image paths
 
@@ -18,19 +18,19 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white sticky top-0 z-40  ">
+    <header className="sticky top-0 z-40 bg-white ">
       <div className="w-full md:w-[90%] mx-auto text-[16px] flex justify-between text-light-blue  font-sans items-center p-4">
         <a href="/">
           <img src={Logo} className="w-[84px]" alt="Nxtwave" />
         </a>
-        <div className="hidden md:flex space-x-8 mr-8 ">
-          <a href="/" className=" hover:text-blue font-medium">
+        <div className="hidden mr-8 space-x-8 md:flex ">
+          <a href="/" className="font-medium hover:text-blue">
             Home
           </a>
           <div className="relative">
             <button 
               onClick={togglePopup} 
-              className=" hover:text-blue font-medium flex  space-x-1"
+              className="flex space-x-1 font-medium hover:text-blue"
             >
               <span>Programs</span>
               <IoIosArrowDown size={18} className="self-end"/>
@@ -43,10 +43,10 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <a href="/" className=" hover:text-blue font-medium">
+          <a href="/" className="font-medium hover:text-blue">
             Reviews
           </a>
-          <a href="/" className=" hover:text-blue font-medium">
+          <a href="/" className="font-medium hover:text-blue">
             Hire with Us
           </a>
           <div className="flex items-center space-x-2 font-medium text-[#1565d8] ">
@@ -69,31 +69,31 @@ const Navbar = () => {
           hamburger ? "block" : "hidden"
         }`}
       >
-        <div className="container mx-auto p-4 space-y-4">
+        <div className="container p-4 mx-auto space-y-4">
           <a
             href="/"
-            className="block  hover:text-blue-600"
+            className="block hover:text-blue-600"
             onClick={toggleHamburger}
           >
             Home
           </a>
           <a
             href="/"
-            className="block  hover:text-blue-600"
+            className="block hover:text-blue-600"
             onClick={toggleHamburger}
           >
             Programs
           </a>
           <a
             href="/"
-            className="block  hover:text-blue-600"
+            className="block hover:text-blue-600"
             onClick={toggleHamburger}
           >
             Reviews
           </a>
           <a
             href="/"
-            className="block  hover:text-blue-600"
+            className="block hover:text-blue-600"
             onClick={toggleHamburger}
           >
             Hire with Us
