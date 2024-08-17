@@ -20,8 +20,11 @@ export default {
         
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(rgba(255, 255, 255, 0), #fff 14%, #fff)',
-      },
+				'custom-gradient': 'linear-gradient(#fff0, #fff 14%, #fff)', 
+			},
+			zIndex: {
+				'zi': '-1', 
+			},
     },
   },
   plugins: [],

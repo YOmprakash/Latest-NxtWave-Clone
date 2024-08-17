@@ -49,16 +49,16 @@ const LandingPage = () => {
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Academy-blue-logo.svg"
                 alt="Academy Logo"
-                className="w-[140px] mt-8 ml-5"
+                className="w-[140px] mt-[50px] ml-5"
               />
               <img
                 src="https://nxtwave.imgix.net/ccbp-website/Home/Landingpage/academy-peron-photo.png?auto=format,compress&q=80"
                 alt="Academy Person"
-                className="relative top-[-28px] w-[130px]"
+                className="z-zi relative top-[-28px] w-[130px]"
               />
             </div>
             {/* Text and Button Container */}
-            <div className="z-10  h-[370px] md:h-[419px] custom-gradient  rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6">
+            <div className=" h-[370px] md:h-[419px] bg-custom-gradient  rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6">
               {/* Tags and Heading */}
               <span className="uppercase z-10 self-start bg-[#e0e7ff] text-[#3730a3] font-semibold text-xs rounded-lg  p-1 mb-2 ">
                 post 12TH / intermediate
@@ -114,16 +114,16 @@ const LandingPage = () => {
               <img
                 src="https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive-3-0-logo.svg"
                 alt="Intensive Logo"
-                className="w-[140px] mt-8"
+                className="w-[140px] mt-[60px]"
               />
               <img
                 src="https://nxtwave.imgix.net/ccbp-website/Home/Landingpage/intensive-person-photo.png?auto=format,compress&q=80"
                 alt="Intensive Person"
-                className="relative top-[-28px] w-[130px] "
+                className="relative z-zi top-[-28px] w-[130px] "
               />
             </div>
             {/* Text and Button Container */}
-            <div className="z-10  h-[370px] md:h-[419px]   rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6 bg-transparent bg-gradient-to-b from-transparent via-[#fff0] to-[#fff]">
+            <div className=" h-[370px] md:h-[419px]   rounded-b-lg mt-[-115px] flex flex-col md:pt-12 px-6 bg-transparent bg-custom-gradient">
               {/* Tags and Heading */}
               <div className="z-10 flex items-center mb-2">
                 <span className="self-start px-2 py-1 mr-2 text-xs font-semibold text-green-800 uppercase bg-green-100 rounded-lg">
